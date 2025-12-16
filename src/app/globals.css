@@ -1,26 +1,157 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Cellora AI Design System */
+  --cellora-mint: #D0EBBA;
+  --cellora-dark-green: #172C23;
+  --cellora-warm-gray: #827263;
+  --cellora-black: #000000;
+  --cellora-white: #FFFFFF;
+
+  /* Extended Palette - Green (#72AE6C) */
+  --cellora-green: #72AE6C;
+  --cellora-green-light: #8FBF8A;
+  --cellora-green-lighter: #E8F5E6;
+  --cellora-green-dark: #5A9B54;
+
+  /* Extended Palette - Brown (#6D593E) */
+  --cellora-brown: #6D593E;
+  --cellora-brown-light: #8B7355;
+  --cellora-brown-lighter: #F5F0EA;
+  --cellora-brown-dark: #5A4832;
+
+  /* Semantic Colors - Light Mode */
+  --background: #FAFAFA;
+  --foreground: #172C23;
+  --card: #FFFFFF;
+  --card-foreground: #172C23;
+  --muted: #F4F4F5;
+  --muted-foreground: #71717A;
+  --accent: #D0EBBA;
+  --accent-foreground: #172C23;
+  --border: #E4E4E7;
+  --ring: #D0EBBA;
+
+  /* Status Colors - Using brand palette */
+  --success: #72AE6C;
+  --warning: #6D593E;
+  --error: #8B4513;
+  --info: #172C23;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+
+  /* Cellora Brand Colors */
+  --color-cellora-mint: var(--cellora-mint);
+  --color-cellora-dark-green: var(--cellora-dark-green);
+  --color-cellora-warm-gray: var(--cellora-warm-gray);
+  --color-cellora-black: var(--cellora-black);
+
+  /* Font */
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: var(--border);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F4F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--cellora-warm-gray);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cellora-mint);
+}
+
+/* Selection */
+::selection {
+  background: var(--cellora-mint);
+  color: var(--cellora-dark-green);
+}
+
+/* Focus Ring */
+:focus-visible {
+  outline: 2px solid var(--cellora-mint);
+  outline-offset: 2px;
+}
+
+/* Animation Utilities */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(208, 235, 186, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(208, 235, 186, 0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.4s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
+
+/* Gradient Backgrounds */
+.gradient-cellora {
+  background: linear-gradient(135deg, #FAFAFA 0%, #E4E4E7 100%);
+}
+
+.gradient-mint {
+  background: linear-gradient(135deg, var(--cellora-mint) 0%, #a8d98a 100%);
+}
+
+/* Glass Effect */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
