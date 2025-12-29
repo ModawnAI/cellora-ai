@@ -20,8 +20,6 @@
     "@radix-ui/react-tooltip": "^1.2.8",
     "clsx": "^2.1.1",
     "geist": "^1.5.1",
-    "llama-cloud-services": "^0.5.1",
-    "llamaindex": "^0.12.1",
     "motion": "^12.23.26",
     "next": "16.0.10",
     "react": "19.2.1",
