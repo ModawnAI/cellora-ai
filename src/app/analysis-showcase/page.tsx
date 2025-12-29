@@ -191,15 +191,22 @@ export default function AnalysisShowcasePage() {
         pores: { overallScore: 59, totalCount: 245, density: 3.2, sizeDistribution: { enlarged: 57, medium: 49, fine: 37 }, problemAreas: ['좌측 볼', '우측 볼'] },
         wrinkles: { overallScore: 67, totalCount: 33, depthClassification: { deep: 0, moderate: 8, fine: 25 }, primaryLocations: ['이마', '눈가'], dynamicVsStatic: { dynamic: 20, static: 13 } },
         pigmentation: { overallScore: 72, evenness: 70, issues: [], uvDamage: { visible: 15, hidden: 28, riskLevel: 'medium' } },
-        vascular: { overallScore: 78, rednessLevel: 25, telangiectasia: false, rosaceaIndicators: false, inflammationLevel: 'minimal', affectedAreas: ['볼'] },
+        vascular: { overallScore: 78, rednessLevel: 25, telangiectasia: false, rosaceaIndicators: false, inflammationLevel: 'none', affectedAreas: ['볼'] },
         hydration: { overallScore: 65, moistureLevel: 30, sebumLevel: 55, skinTypeClassification: 'combination', barrier: { integrity: 70, tewl: 'normal' } },
-        elasticity: { overallScore: 75, firmness: 78, laxity: { level: 'minimal', affectedAreas: [] }, collagenEstimate: 'good' },
+        elasticity: { overallScore: 75, firmness: 78, laxity: { level: 'none', affectedAreas: [] }, collagenEstimate: 'adequate' },
       },
-      ageAnalysis: { estimatedSkinAge: 28, ageDifference: 1, agingFactors: ['모공 확장', '초기 주름'] },
+      ageAnalysis: { estimatedSkinAge: 28, ageDifference: 1, agingFactors: [
+        { factor: '모공 확장', contribution: 'medium', description: '모공이 다소 확대되어 있음' },
+        { factor: '초기 주름', contribution: 'low', description: '눈가와 이마에 미세한 주름 발견' }
+      ] },
       summary: {
         overallSkinHealth: 68,
         healthGrade: 'C',
-        primaryConcerns: ['모공 관리', '주름 예방', '유수분 밸런스'],
+        primaryConcerns: [
+          { concern: 'pore-management', koreanName: '모공 관리', severity: 'moderate', urgency: 'soon' },
+          { concern: 'wrinkle-prevention', koreanName: '주름 예방', severity: 'mild', urgency: 'routine' },
+          { concern: 'oil-water-balance', koreanName: '유수분 밸런스', severity: 'mild', urgency: 'routine' }
+        ],
         strengths: ['혈관 상태 양호', '탄력 유지'],
         areasForImprovement: ['모공 축소', '수분 공급', '색소 예방'],
         lifestyleRecommendations: ['매일 SPF 50+ 사용', '수분 크림 강화', '모공 관리 루틴'],

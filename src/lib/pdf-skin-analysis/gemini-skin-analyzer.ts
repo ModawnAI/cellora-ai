@@ -623,7 +623,6 @@ export async function analyzePageImage(
       imageType: 'other',
       detectedMode: 'Unable to detect',
       description: 'Analysis could not be completed for this page',
-      overallCondition: 'fair',
       keyFindings: [],
       conditions: [],
       regionAnalysis: [],
@@ -942,7 +941,7 @@ function createDefaultMetrics(): DetailedSkinMetrics {
       rednessLevel: 50,
       telangiectasia: false,
       rosaceaIndicators: false,
-      inflammationLevel: 'minimal',
+      inflammationLevel: 'none',
       affectedAreas: [],
     },
     hydration: {
@@ -955,8 +954,8 @@ function createDefaultMetrics(): DetailedSkinMetrics {
     elasticity: {
       overallScore: 50,
       firmness: 50,
-      laxity: { level: 'minimal', affectedAreas: [] },
-      collagenEstimate: 'optimal',
+      laxity: { level: 'none', affectedAreas: [] },
+      collagenEstimate: 'adequate',
     },
   };
 }

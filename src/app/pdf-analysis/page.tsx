@@ -416,22 +416,18 @@ export default function PDFAnalysisPage() {
                           </span>
                           <span
                             className={`text-xs px-2 py-1 rounded-full ${
-                              page.overallCondition === 'excellent'
-                                ? 'bg-[var(--cellora-green-lighter)] text-[var(--cellora-green)]'
-                                : page.overallCondition === 'good'
-                                ? 'bg-[var(--cellora-mint)]/20 text-[var(--cellora-dark-green)]'
-                                : page.overallCondition === 'fair'
-                                ? 'bg-[var(--muted)] text-[var(--cellora-warm-gray)]'
-                                : 'bg-[var(--cellora-brown-lighter)] text-[var(--cellora-brown)]'
+                              page.imageType === 'uv'
+                                ? 'bg-purple-100 text-purple-700'
+                                : page.imageType === 'polarized'
+                                ? 'bg-blue-100 text-blue-700'
+                                : 'bg-[var(--cellora-mint)]/20 text-[var(--cellora-dark-green)]'
                             }`}
                           >
-                            {page.overallCondition === 'excellent'
-                              ? '우수'
-                              : page.overallCondition === 'good'
-                              ? '양호'
-                              : page.overallCondition === 'fair'
-                              ? '보통'
-                              : '주의'}
+                            {page.imageType === 'uv'
+                              ? 'UV'
+                              : page.imageType === 'polarized'
+                              ? '편광'
+                              : '일반'}
                           </span>
                         </div>
                         <p className="text-xs text-[var(--cellora-warm-gray)] line-clamp-2">
