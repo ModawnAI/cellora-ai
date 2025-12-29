@@ -1,0 +1,331 @@
+{
+  "id": "kangseongil-2025-12-26",
+  "analyzedAt": "2025-12-26T10:00:00.000Z",
+  "sourceFile": "kangseongil_skin_analysis.pdf",
+  "totalPages": 14,
+
+  "patient": {
+    "name": "강성일",
+    "age": 27,
+    "birthDate": "1999-09-09",
+    "gender": "남성",
+    "skinAge": 28,
+    "skinAgeDifference": 1,
+    "skinType": "복합성",
+    "skinTypeDetail": "건성-중성",
+    "skinSensitivity": {
+      "redness": "orange",
+      "acne": "green"
+    },
+    "skinTone": {
+      "type": "medium",
+      "tendency": "검어지기 쉬움"
+    },
+    "moisture": {
+      "tzone": 0,
+      "uzone": 30,
+      "overall": "낮음"
+    }
+  },
+
+  "photos": [
+    {
+      "id": "1",
+      "filename": "page_04_regular_face.png",
+      "page": 4,
+      "type": "regular",
+      "analysisType": "pores",
+      "label": "모공 분석",
+      "analysis": {
+        "title": "모공 분석",
+        "score": 59,
+        "rating": "Bad",
+        "details": [
+          { "label": "이마", "value": 37 },
+          { "label": "우측 볼", "value": 49 },
+          { "label": "좌측 볼", "value": 57 },
+          { "label": "중앙", "value": 22 },
+          { "label": "평균", "value": 41 }
+        ],
+        "interpretation": "모공 크기와 밀도가 평균보다 높게 측정되었습니다. 특히 볼 부위의 모공이 확장되어 있어 집중 관리가 필요합니다.",
+        "recommendations": [
+          {
+            "name": "Pico Toning",
+            "koreanName": "피코토닝",
+            "frequency": "2주 간격",
+            "sessions": "5-10회 프로그램",
+            "description": "모공 축소와 피부 탄력 개선에 효과적인 레이저 시술"
+          },
+          {
+            "name": "Aqua Peel",
+            "koreanName": "아쿠아필",
+            "frequency": "2-3주 간격",
+            "sessions": "4-6회 프로그램",
+            "description": "딥 클렌징과 모공 내 노폐물 제거"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "filename": "page_05_regular_face.png",
+      "page": 5,
+      "type": "regular",
+      "analysisType": "wrinkles",
+      "label": "주름 분석",
+      "analysis": {
+        "title": "주름 분석",
+        "score": 67,
+        "rating": "Normal",
+        "details": [
+          { "label": "이마", "value": 18 },
+          { "label": "눈가 (우)", "value": "8/54" },
+          { "label": "눈가 (좌)", "value": "14/76" },
+          { "label": "볼 (우)", "value": 27 },
+          { "label": "볼 (좌)", "value": 35 },
+          { "label": "평균", "value": 33 }
+        ],
+        "interpretation": "눈가와 볼 부위에서 초기 주름 징후가 관찰됩니다. 현재 상태에서 적극적인 관리를 시작하면 주름 진행을 늦출 수 있습니다.",
+        "recommendations": [
+          {
+            "name": "Rejuran Healer",
+            "koreanName": "리쥬란힐러",
+            "frequency": "2-4주 간격",
+            "sessions": "3-4회 프로그램",
+            "description": "PN 성분으로 피부 재생과 잔주름 개선"
+          },
+          {
+            "name": "Botox",
+            "koreanName": "보톡스",
+            "frequency": "3-6개월 간격",
+            "sessions": "정기 관리",
+            "description": "주름 예방 및 표정 주름 개선"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "filename": "page_06_regular_face.png",
+      "page": 6,
+      "type": "regular",
+      "analysisType": "futureWrinkles",
+      "label": "미래주름 분석",
+      "analysis": {
+        "title": "미래주름 분석 (UV)",
+        "score": 70,
+        "rating": "Normal",
+        "details": [
+          { "label": "이마", "value": 25 },
+          { "label": "눈가 (우)", "value": "17/42" },
+          { "label": "눈가 (좌)", "value": "22/52" },
+          { "label": "볼 (우)", "value": 24 },
+          { "label": "볼 (좌)", "value": 25 },
+          { "label": "평균", "value": 30 }
+        ],
+        "interpretation": "UV 분석 결과 피부 하층에 잠재적 주름 형성 위험이 관찰됩니다. 자외선 차단과 예방적 케어가 중요합니다.",
+        "recommendations": [
+          {
+            "name": "Ultherapy",
+            "koreanName": "울쎄라",
+            "frequency": "6-12개월 간격",
+            "sessions": "연 1-2회",
+            "description": "SMAS층까지 도달하는 초음파로 근본적인 리프팅 효과"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "filename": "page_07_regular_face.png",
+      "page": 7,
+      "type": "regular",
+      "analysisType": "pigmentation",
+      "label": "색소 분석",
+      "analysis": {
+        "title": "색소침착 분석 (UV)",
+        "score": 72,
+        "rating": "Normal",
+        "details": [
+          { "label": "표면 색소", "value": "15%" },
+          { "label": "잠재 색소", "value": "28%" },
+          { "label": "멜라닌 지수", "value": 45 }
+        ],
+        "interpretation": "UV 분석에서 표면에 나타나지 않은 잠재 색소가 28% 발견되었습니다. 향후 기미, 잡티로 발현될 수 있어 예방적 관리가 필요합니다.",
+        "recommendations": [
+          {
+            "name": "Pico Laser",
+            "koreanName": "피코레이저",
+            "frequency": "2-4주 간격",
+            "sessions": "5-10회 프로그램",
+            "description": "색소 파괴와 피부톤 개선"
+          },
+          {
+            "name": "IPL",
+            "koreanName": "IPL 광선치료",
+            "frequency": "3-4주 간격",
+            "sessions": "3-5회 프로그램",
+            "description": "색소 병변과 피부톤 불균일 개선"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "filename": "page_08_uv_face.png",
+      "page": 8,
+      "type": "uv",
+      "analysisType": "vascular",
+      "label": "혈관 분석",
+      "analysis": {
+        "title": "혈관/홍조 분석 (UV)",
+        "score": 78,
+        "rating": "Normal",
+        "details": [
+          { "label": "홍조 레벨", "value": 25 },
+          { "label": "모세혈관 확장", "value": "경미" },
+          { "label": "염증 지수", "value": "낮음" }
+        ],
+        "interpretation": "볼 부위에 경미한 홍조가 관찰됩니다. 현재 수준은 양호하나 지속적인 모니터링이 권장됩니다.",
+        "recommendations": [
+          {
+            "name": "Excel V Laser",
+            "koreanName": "엑셀브이 레이저",
+            "frequency": "4주 간격",
+            "sessions": "3-5회 프로그램",
+            "description": "혈관성 병변과 홍조 개선 전문 레이저"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "filename": "page_09_regular_face.png",
+      "page": 9,
+      "type": "regular",
+      "analysisType": "sebum",
+      "label": "피지 분석",
+      "analysis": {
+        "title": "피지 분석 (UV)",
+        "score": 65,
+        "rating": "Normal",
+        "details": [
+          { "label": "T존 피지", "value": "높음" },
+          { "label": "U존 피지", "value": "보통" },
+          { "label": "유수분 밸런스", "value": "불균형" }
+        ],
+        "interpretation": "T존(이마, 코)의 피지 분비가 높고, U존은 상대적으로 건조한 복합성 피부입니다. 부위별 맞춤 케어가 필요합니다.",
+        "recommendations": [
+          {
+            "name": "Sebum Control Peeling",
+            "koreanName": "피지 조절 필링",
+            "frequency": "2주 간격",
+            "sessions": "4-6회 프로그램",
+            "description": "과다 피지 조절과 모공 관리"
+          },
+          {
+            "name": "Skinbooster",
+            "koreanName": "스킨부스터",
+            "frequency": "2-4주 간격",
+            "sessions": "3-4회 프로그램",
+            "description": "피부 깊숙한 수분 공급과 밸런스 개선"
+          }
+        ]
+      }
+    }
+  ],
+
+  "summary": {
+    "overallScore": 68,
+    "grade": "C",
+    "gradeLabel": "보통",
+    "primaryConcerns": ["모공 관리", "주름 예방", "유수분 밸런스"],
+    "strengths": ["혈관 상태 양호", "탄력 유지"],
+    "areasForImprovement": ["모공 축소", "수분 공급", "색소 예방"],
+    "lifestyleRecommendations": [
+      "매일 SPF 50+ 자외선 차단제 사용",
+      "수분 크림으로 보습 강화",
+      "주 2회 모공 케어 마스크 사용",
+      "충분한 수분 섭취 (하루 2L 이상)"
+    ]
+  },
+
+  "allRecommendations": [
+    {
+      "priority": 1,
+      "name": "Pico Toning",
+      "koreanName": "피코토닝",
+      "frequency": "2주 간격",
+      "sessions": "5-10회 프로그램",
+      "description": "모공 축소와 피부 탄력 개선에 효과적인 레이저 시술",
+      "targetConcerns": ["모공"]
+    },
+    {
+      "priority": 2,
+      "name": "Aqua Peel",
+      "koreanName": "아쿠아필",
+      "frequency": "2-3주 간격",
+      "sessions": "4-6회 프로그램",
+      "description": "딥 클렌징과 모공 내 노폐물 제거",
+      "targetConcerns": ["모공", "피지"]
+    },
+    {
+      "priority": 3,
+      "name": "Rejuran Healer",
+      "koreanName": "리쥬란힐러",
+      "frequency": "2-4주 간격",
+      "sessions": "3-4회 프로그램",
+      "description": "PN 성분으로 피부 재생과 잔주름 개선",
+      "targetConcerns": ["주름", "탄력"]
+    },
+    {
+      "priority": 4,
+      "name": "Skinbooster",
+      "koreanName": "스킨부스터",
+      "frequency": "2-4주 간격",
+      "sessions": "3-4회 프로그램",
+      "description": "피부 깊숙한 수분 공급과 밸런스 개선",
+      "targetConcerns": ["수분", "피지 밸런스"]
+    },
+    {
+      "priority": 5,
+      "name": "Pico Laser",
+      "koreanName": "피코레이저",
+      "frequency": "2-4주 간격",
+      "sessions": "5-10회 프로그램",
+      "description": "색소 파괴와 피부톤 개선",
+      "targetConcerns": ["색소침착"]
+    },
+    {
+      "priority": 6,
+      "name": "Ultherapy",
+      "koreanName": "울쎄라",
+      "frequency": "6-12개월 간격",
+      "sessions": "연 1-2회",
+      "description": "SMAS층까지 도달하는 초음파로 근본적인 리프팅 효과",
+      "targetConcerns": ["주름", "탄력"]
+    }
+  ],
+
+  "aiInsights": {
+    "overallAssessment": "27세 남성으로 피부 나이는 28세로 측정되었습니다. 전반적으로 보통 수준의 피부 건강 상태이며, 모공과 초기 주름에 대한 관리가 필요합니다.",
+    "hiddenConcerns": [
+      "UV 분석에서 표면에 보이지 않는 잠재 색소 28% 발견",
+      "미래 주름 형성 위험 관찰",
+      "T존 피지 과다로 인한 유수분 불균형"
+    ],
+    "preventiveAdvice": [
+      "자외선 차단 필수 - 매일 SPF 50+ 사용",
+      "모공 케어 집중 - 주 2회 딥클렌징",
+      "보습 강화 - 수분 크림과 세럼 병행",
+      "항산화 케어 - 비타민 C 세럼 사용"
+    ],
+    "urgentAttention": [],
+    "positiveFindings": [
+      "혈관 상태 양호 - 심각한 홍조나 모세혈관 확장 없음",
+      "피부 탄력 유지 - 나이 대비 양호한 탄력도",
+      "심각한 염증 없음 - 피부 장벽 기능 유지"
+    ],
+    "customizedProtocol": "모공 관리와 주름 예방에 집중하면서 유수분 밸런스를 개선하세요. 피코토닝과 아쿠아필로 모공 관리를 시작하고, 스킨부스터로 수분 공급을 강화하는 것을 권장합니다."
+  }
+}

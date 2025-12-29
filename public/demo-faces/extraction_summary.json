@@ -1,0 +1,175 @@
+{
+  "pdf_path": "/Users/paksungho/cellora-ai/folder/3586_1.pdf",
+  "output_dir": "/Users/paksungho/cellora-ai/public/demo-faces",
+  "total_pages": 14,
+  "total_faces": 11,
+  "regular_count": 8,
+  "uv_count": 3,
+  "photos": [
+    {
+      "page": 4,
+      "type": "regular",
+      "bbox": {
+        "x": 225,
+        "y": 775,
+        "width": 597,
+        "height": 650
+      },
+      "dimensions": {
+        "width": 597,
+        "height": 650
+      },
+      "file_path": "/Users/paksungho/cellora-ai/public/demo-faces/page_04_regular_face.png"
+    },
+    {
+      "page": 5,
+      "type": "regular",
+      "bbox": {
+        "x": 225,
+        "y": 775,
+        "width": 600,
+        "height": 650
+      },
+      "dimensions": {
+        "width": 600,
+        "height": 650
+      },
+      "file_path": "/Users/paksungho/cellora-ai/public/demo-faces/page_05_regular_face.png"
+    },
+    {
+      "page": 6,
+      "type": "regular",
+      "bbox": {
+        "x": 223,
+        "y": 775,
+        "width": 603,
+        "height": 650
+      },
+      "dimensions": {
+        "width": 603,
+        "height": 650
+      },
+      "file_path": "/Users/paksungho/cellora-ai/public/demo-faces/page_06_regular_face.png"
+    },
+    {
+      "page": 7,
+      "type": "regular",
+      "bbox": {
+        "x": 223,
+        "y": 775,
+        "width": 603,
+        "height": 650
+      },
+      "dimensions": {
+        "width": 603,
+        "height": 650
+      },
+      "file_path": "/Users/paksungho/cellora-ai/public/demo-faces/page_07_regular_face.png"
+    },
+    {
+      "page": 8,
+      "type": "uv",
+      "bbox": {
+        "x": 227,
+        "y": 775,
+        "width": 560,
+        "height": 650
+      },
+      "dimensions": {
+        "width": 560,
+        "height": 650
+      },
+      "file_path": "/Users/paksungho/cellora-ai/public/demo-faces/page_08_uv_face.png"
+    },
+    {
+      "page": 9,
+      "type": "regular",
+      "bbox": {
+        "x": 223,
+        "y": 775,
+        "width": 603,
+        "height": 650
+      },
+      "dimensions": {
+        "width": 603,
+        "height": 650
+      },
+      "file_path": "/Users/paksungho/cellora-ai/public/demo-faces/page_09_regular_face.png"
+    },
+    {
+      "page": 10,
+      "type": "regular",
+      "bbox": {
+        "x": 223,
+        "y": 775,
+        "width": 603,
+        "height": 650
+      },
+      "dimensions": {
+        "width": 603,
+        "height": 650
+      },
+      "file_path": "/Users/paksungho/cellora-ai/public/demo-faces/page_10_regular_face.png"
+    },
+    {
+      "page": 11,
+      "type": "uv",
+      "bbox": {
+        "x": 227,
+        "y": 775,
+        "width": 560,
+        "height": 650
+      },
+      "dimensions": {
+        "width": 560,
+        "height": 650
+      },
+      "file_path": "/Users/paksungho/cellora-ai/public/demo-faces/page_11_uv_face.png"
+    },
+    {
+      "page": 12,
+      "type": "uv",
+      "bbox": {
+        "x": 227,
+        "y": 775,
+        "width": 560,
+        "height": 650
+      },
+      "dimensions": {
+        "width": 560,
+        "height": 650
+      },
+      "file_path": "/Users/paksungho/cellora-ai/public/demo-faces/page_12_uv_face.png"
+    },
+    {
+      "page": 13,
+      "type": "regular",
+      "bbox": {
+        "x": 144,
+        "y": 921,
+        "width": 765,
+        "height": 967
+      },
+      "dimensions": {
+        "width": 765,
+        "height": 967
+      },
+      "file_path": "/Users/paksungho/cellora-ai/public/demo-faces/page_13_regular_face.png"
+    },
+    {
+      "page": 14,
+      "type": "regular",
+      "bbox": {
+        "x": 223,
+        "y": 775,
+        "width": 603,
+        "height": 650
+      },
+      "dimensions": {
+        "width": 603,
+        "height": 650
+      },
+      "file_path": "/Users/paksungho/cellora-ai/public/demo-faces/page_14_regular_face.png"
+    }
+  ]
+}
